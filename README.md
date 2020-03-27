@@ -10,6 +10,8 @@ label : This is actual digit number this handwritten digit image represents (1 c
 
 The goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. The training data includes 42000 digits. The training data are used to train the model and to predict 28000 digits in the test data.
 
+_______________________________________________________________________________
+
 
 
 
