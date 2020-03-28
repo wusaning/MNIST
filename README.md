@@ -23,7 +23,7 @@ In CNN and ResNet, they are reshaped to 28*28
 #### Architecture (In CNN & ResNet): 
 convolution layer | pooling | batch normalization | dense layer | dropout 
 
-### Hyperparameters Tuning (In RF, KNN, CNN & ResNet):
+#### Hyperparameters Tuning (In RF, KNN, CNN & ResNet):
 Grid search is used
 
 #### Confusion Matrix:
