@@ -11,7 +11,23 @@ label : This is actual digit number this handwritten digit image represents (1 c
 The goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. The training data includes 42000 digits. The training data are used to train the model and to predict 28000 digits in the test data.
 
 _______________________________________________________________________________
+Overview
 
+Feature Engineering
+Performing a grayscale normalization to reduce effect of illumination differences and model converges faster
+In CNN and ResNet, reshaping to 28*28
 
+Architecture
+CNN, ResNet
+convolution layer, pooling, batch normalization, dense layer, dropout 
 
+Hyperparameters
+RF, KNN, CNN, ResNet
+Gridsearch
+
+Confusion Matrix
+Using confusion matrix to evaluate multi-classification results
+
+Results Testing
+Prediction results of 28000 digits are tested in Kaggle
 
