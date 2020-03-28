@@ -1,4 +1,4 @@
-Description
+## Description
 
 Kaggle Digit Recognizer Competition: Learn computer vision fundamentals with the famous MNIST data. (https://www.kaggle.com/c/digit-recognizer) 
 
@@ -14,20 +14,21 @@ To solve the problem, several models are applied and compared, including KNN, Ra
 
 _______________________________________________________________________________
 
-Overview
+## Overview
 
-Feature Engineering: Performing a grayscale normalization to reduce effect of illumination differences and help the models converge faster.
+### Feature Engineering: 
+Performing a grayscale normalization to reduce effect of illumination differences and help the models converge faster.
 In CNN and ResNet, they are reshaped to 28*28
 
-Architecture (In CNN & ResNet): 
+### Architecture (In CNN & ResNet): 
 convolution layer | pooling | batch normalization | dense layer | dropout 
 
-Hyperparameters Tuning (In RF, KNN, CNN & ResNet):
+### Hyperparameters Tuning (In RF, KNN, CNN & ResNet):
 Grid search is used
 
-Confusion Matrix:
+### Confusion Matrix:
 Used to evaluate multi-classification results
 
-Results Testing:
+### Results Testing:
 Prediction results of 28000 digits are tested in Kaggle
 
