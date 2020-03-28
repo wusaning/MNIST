@@ -16,9 +16,7 @@ _______________________________________________________________________________
 
 Overview
 
-Feature Engineering:
-
-Performing a grayscale normalization to reduce effect of illumination differences and help the models converge faster.
+Feature Engineering: Performing a grayscale normalization to reduce effect of illumination differences and help the models converge faster.
 In CNN and ResNet, they are reshaped to 28*28
 
 Architecture (In CNN & ResNet): 
