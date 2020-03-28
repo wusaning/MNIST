@@ -13,21 +13,21 @@ The goal is to correctly identify digits from a dataset of tens of thousands of 
 _______________________________________________________________________________
 Overview
 
-Feature Engineering
+Feature Engineering:
 Performing a grayscale normalization to reduce effect of illumination differences and model converges faster
 In CNN and ResNet, reshaping to 28*28
 
-Architecture
+Architecture:
 CNN, ResNet
 convolution layer, pooling, batch normalization, dense layer, dropout 
 
-Hyperparameters
+Hyperparameters:
 RF, KNN, CNN, ResNet
 Gridsearch
 
-Confusion Matrix
+Confusion Matrix:
 Using confusion matrix to evaluate multi-classification results
 
-Results Testing
+Results Testing:
 Prediction results of 28000 digits are tested in Kaggle
 
